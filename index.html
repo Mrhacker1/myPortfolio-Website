@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/ee04aa9f56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/mine.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Farhan Hussain</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------About-------- -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Aboutme.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, deserunt voluptate quae sapiente illo recusandae,  vitae quis numquam suscipit ipsum doloremque ipsa ratione qui aspernatur mollitia, cum pariatur sit delectus <br> facere accusantium laudantium! Accusamus, libero? Aut, accusantium totam! Adipisci voluptatum eos magni deleniti tempora dolor explicabo consequuntur vel fugit, magnam illum? Enim sed totam ullam maiores officia voluptates fugit fugiat.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Full-Stack Web development Intern at CSS corp</li>
+                            <li><span>2021</span><br>Android app development Intern at NIELIT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Bachelor in CS from BITS</li>
+                            <li><span>2018</span><br>Intermediate from SR</li>
+                            <li><span>2016</span><br>Schooling from St.Peters Central</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services--------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <span class="material-symbols-sharp">
+                        integration_instructions
+                        </span>
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Quaerat voluptatum incidunt corporis, praesentium quod 
+                         exercitationem id, eaque reiciendis ut, unde harum modi</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="material-symbols-sharp">
+                        design_services
+                        </span><h2>UX/UI Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Quaerat voluptatum incidunt corporis, praesentium quod 
+                         exercitationem id, eaque reiciendis ut, unde harum modi</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="material-symbols-sharp">
+                        phone_iphone
+                        </span>
+                    <h2>App Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Quaerat voluptatum incidunt corporis, praesentium quod
+                       requidem perferendis ea nulla similique reiciendis veritatis aspernatur at.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------portfolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/androidgame.jpg" alt="put the photo of your work">
+                    <div class="layer">
+                        <h3>Quiz Application</h3>
+                        <p>The app connects you to the talented people around the world. <br>
+                        Download it from play store</p>
+                        <a href="#"><span class="material-symbols-sharp">
+                            open_in_new
+                            </span></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="images/Jarvis-Software.png" alt="put the photo of your work">
+                    <div class="layer">
+                        <h3>JARVIS Desktop Assistant</h3>
+                        <p>This app works on the commands you give to it through voice, from making a new file 
+                            to appending it and opening all required items.
+                        </p>
+                        <a href="#"><span class="material-symbols-sharp">
+                            open_in_new
+                            </span></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="images/cancer.png" alt="put the photo of your work">
+                    <div class="layer">
+                        <h3>Skin Cancer Classifier Application</h3>
+                        <p>The Software Application tells what type of skin cancer a Person has upon inserting
+                            the image of effected area
+                        </p>
+                        <a href="#"><span class="material-symbols-sharp">
+                            open_in_new
+                            </span></a>
+                    </div> 
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------------contact----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>meetfarhan.h@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9676438xxx</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/FarhansResume.pdf" download class="btn btn2">Download my CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-square-exclamation"></i></i></p>copyright © Farhan. <i class="fa-solid fa-skull"></i></i></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+                        
+
+
+
+
+
+
+
